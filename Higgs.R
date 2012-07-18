@@ -5,8 +5,8 @@ setwd("~/Documents/Astronomy/Higgs/")
 
 #Load libraries
 library("ggplot2")
-#source("http://bioconductor.org/biocLite.R")
-#biocLite("geneplotter")
+source("http://bioconductor.org/biocLite.R")
+biocLite("geneplotter")
 library("geneplotter")
 
 #Load file
